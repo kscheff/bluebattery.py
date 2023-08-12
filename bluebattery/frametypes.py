@@ -327,7 +327,7 @@ BCSolarChargerLargeSolarCurrent = BBFrame(
         #     1: Absorption
         #     2: Float
         #     3: Care
-        BBValue("B", "solar_charger_phase"),# cnv.cnv_charger_phase),
+        BBValue("B", "solar_charger_phase", cnv.cnv_charger_phase),
         #1 byte (09) MSB [23:16] solar max current per day (>= V418)
         BBValue("B", "max_solar_current_day_A", lambda x: x << 16),
         #1 byte (19) MSB [23:16] solar charge (>= V418)
