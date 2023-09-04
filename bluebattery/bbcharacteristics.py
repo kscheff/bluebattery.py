@@ -123,6 +123,7 @@ class BCLive(ReadPeriodicCharacteristic):
                 (0x01, 0x09): frametypes.BCSolarChargerEBLFrame,
                 (0x01, 0x0B): frametypes.BCSolarChargerStandardFrame,
                 (0x01, 0x0C): frametypes.BCSolarChargerExtendedFrame,
+                (0x01, 0x0D): frametypes.BCSolarChargerExtended1Frame,
                 (0x01, 0x0F): frametypes.BCSolarChargerLargeSolarCurrent,
                 (0x02, 0x10): frametypes.BCBatteryComputer1Frame,
                 (0x02, 0x11): frametypes.BCBatteryComputer1Frame,
